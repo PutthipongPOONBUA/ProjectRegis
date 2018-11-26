@@ -26,9 +26,10 @@ public class searchSubjectController {
             searchID= (Button) event.getSource();
             Stage stage = (Stage)searchID.getScene().getWindow();
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Subject.fxml"));
+            stage.setScene(new Scene(loader.load()));
            SubjectController sc=loader.getController();
            sc.setSubject(ts.getSubject(textID.getText()));
-            stage.setScene(new Scene(loader.load()));
+
             stage.show();
         } catch (Exception e) {
             e.printStackTrace();
