@@ -68,7 +68,8 @@ public class TableSubject {
         ts.add(new Subject("01418390","Co-operative Education Preparation",3,"01418321"));
         ts.add(new Subject("01418399","Computer Science Project Preparation",1,"01418321"));
         ts.add(new Subject("01418421","Human Computer Interaction",3,"01418116,01418322"));
-        ts.add(new Subject("01418442","Business Data Dimension and Report Management",3,"014183454,01418345"));
+        ts.add(new Subject("01418442","Business Data Dimension and Report Management",3,"01418345" +
+                ",01418345"));
         ts.add(new Subject("01418443","Web Technology and Web Services",3,"01418351"));
         ts.add(new Subject("01418451","Network Design and Administration",3,"01418351"));
         ts.add(new Subject("01418462","Theory of Artificial Intelligence",3,"01418232"));
