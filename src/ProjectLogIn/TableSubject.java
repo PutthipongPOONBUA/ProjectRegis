@@ -61,7 +61,7 @@ public class TableSubject {
         ts.add(new Subject("01418344","Enterprise Resource Planning System Design and Development",3,"01418221"));
         ts.add(new Subject("01418345","Computer Programming in Business",3,"01418116"));
         ts.add(new Subject("01418346","Mobile Application Design and Development",3,"01418221"));
-        ts.add(new Subject("01418351","Computer Communications and Protocols",3," 01418116"));
+        ts.add(new Subject("01418351","Computer Communications and Protocols",3,"01418116"));
         ts.add(new Subject("01418353","Computer System and Communication Network Security",3,"01418351"));
         ts.add(new Subject("01418382","Computer Graphics Working Environment",3,"01418116"));
         ts.add(new Subject("01418385","Digital Image Processing",3,"01418116"));
@@ -158,89 +158,85 @@ public class TableSubject {
     public ArrayList<Subject>getYear11(){
         TableSubject tableSubjects=new TableSubject();
         ArrayList<Subject>term=new ArrayList<>();
+        term.add((new Subject("01355XXX","English",3,"-")));
         term.add(tableSubjects.getSubject("01418114"));
         term.add(tableSubjects.getSubject("01418131"));
         term.add(tableSubjects.getSubject("01420115"));
         term.add(tableSubjects.getSubject("01420119"));
-        term.add(tableSubjects.getSubject("01355111"));
-        term.add(tableSubjects.getSubject("01386121"));
+        term.add((new Subject("01XXXXXX","วิชาศึกษาทั่วไปในกลุ่มวิชามนุษยศาสตร์",3,"-")));
         return term;
     }
     public ArrayList<Subject>getYear12(){
         TableSubject tableSubjects=new TableSubject();
         ArrayList<Subject>term=new ArrayList<>();
+        term.add((new Subject("01175XXX","กิจกรรมพละศึกษา",3,"-")));
+        term.add((new Subject("01355XXX","English",3,"-")));
         term.add(tableSubjects.getSubject("01417111"));
         term.add(tableSubjects.getSubject("01418116"));
-        term.add(tableSubjects.getSubject("01403111"));
-        term.add(tableSubjects.getSubject("01175114"));
-        term.add(tableSubjects.getSubject("01459101"));
-        term.add(tableSubjects.getSubject("01301201"));
+        term.add((new Subject("014XXXXX","Chemistry or Biology",4,"-")));
+        term.add((new Subject("01XXXXXX","วิชาศึกษาทั่วไปในกลุ่มวิชาภาษา",3,"-")));
+        term.add((new Subject("01XXXXXX","วิชาศึกษาทั่วไปในกลุ่มวิชาวิทยาศาสตร์และคณิตศาสตร์",3,"-")));
         return term;
     }
     public ArrayList<Subject>getYear21(){
         TableSubject tableSubjects=new TableSubject();
         ArrayList<Subject>term=new ArrayList<>();
-        term.add(tableSubjects.getSubject("01417111"));
-        term.add(tableSubjects.getSubject("01418116"));
-        term.add(tableSubjects.getSubject("01403111"));
-        term.add(tableSubjects.getSubject("01175114"));
-        term.add(tableSubjects.getSubject("01459101"));
-        term.add(tableSubjects.getSubject("01301201"));
+        term.add((new Subject("01175XXX","กิจกรรมพละศึกษา",3,"-")));
+        term.add((new Subject("01355XXX","English",3,"-")));
+        term.add((new Subject("01XXXXXX","วิชาศึกษาทั่วไปในกลุ่มวิชามนุษยศาสตร์",3,"-")));
+        term.add(tableSubjects.getSubject("01417112"));
+        term.add(tableSubjects.getSubject("01418132"));
+        term.add(tableSubjects.getSubject("01418217"));
+        term.add(tableSubjects.getSubject("01418231"));
         return term;
     }
     public ArrayList<Subject>getYear22(){
         TableSubject tableSubjects=new TableSubject();
         ArrayList<Subject>term=new ArrayList<>();
-        term.add(tableSubjects.getSubject("01417111"));
-        term.add(tableSubjects.getSubject("01418116"));
-        term.add(tableSubjects.getSubject("01403111"));
-        term.add(tableSubjects.getSubject("01175114"));
-        term.add(tableSubjects.getSubject("01459101"));
-        term.add(tableSubjects.getSubject("01301201"));
+        term.add((new Subject("01355XXX","English",3,"-")));
+        term.add(tableSubjects.getSubject("01417322"));
+        term.add(tableSubjects.getSubject("01418216"));
+        term.add(tableSubjects.getSubject("01418221"));
+        term.add(tableSubjects.getSubject("01418232"));
+        term.add(tableSubjects.getSubject("01422111"));
+        term.add((new Subject("01XXXXXX","วิชาศึกษาทั่วไปในกลุ่มวิชาสังคมศาสตร์",3,"-")));
         return term;
     }
     public ArrayList<Subject>getYear31(){
         TableSubject tableSubjects=new TableSubject();
         ArrayList<Subject>term=new ArrayList<>();
-        term.add(tableSubjects.getSubject("01417111"));
-        term.add(tableSubjects.getSubject("01418116"));
-        term.add(tableSubjects.getSubject("01403111"));
-        term.add(tableSubjects.getSubject("01175114"));
-        term.add(tableSubjects.getSubject("01459101"));
-        term.add(tableSubjects.getSubject("01301201"));
+        term.add(tableSubjects.getSubject("01418321"));
+        term.add(tableSubjects.getSubject("01418331"));
+        term.add(tableSubjects.getSubject("01418351"));
+        term.add(new Subject("01418XXX","วิชาเฉพาะเลือก",3,"-"));
+        term.add(new Subject("01XXXXXX","วิชาศึกษาทั่วไปในกลุ่มวิชาสังคมศาสตร์",3,"-"));
+        term.add(new Subject("01XXXXXX","วิชาเลือกเสรี",3,"-"));
         return term;
     }
     public ArrayList<Subject>getYear32(){
         TableSubject tableSubjects=new TableSubject();
         ArrayList<Subject>term=new ArrayList<>();
-        term.add(tableSubjects.getSubject("01417111"));
-        term.add(tableSubjects.getSubject("01418116"));
-        term.add(tableSubjects.getSubject("01403111"));
-        term.add(tableSubjects.getSubject("01175114"));
-        term.add(tableSubjects.getSubject("01459101"));
-        term.add(tableSubjects.getSubject("01301201"));
+        term.add(tableSubjects.getSubject("01132101"));
+        term.add(tableSubjects.getSubject("01418332"));
+        term.add(tableSubjects.getSubject("01418333"));
+        term.add(tableSubjects.getSubject("01418343"));
+        term.add(tableSubjects.getSubject("01418497"));
+        term.add(new Subject("01418XXX","วิชาเฉพาะเลือก",3,"-"));
         return term;
     }
     public ArrayList<Subject>getYear41(){
         TableSubject tableSubjects=new TableSubject();
         ArrayList<Subject>term=new ArrayList<>();
-        term.add(tableSubjects.getSubject("01417111"));
-        term.add(tableSubjects.getSubject("01418116"));
-        term.add(tableSubjects.getSubject("01403111"));
-        term.add(tableSubjects.getSubject("01175114"));
-        term.add(tableSubjects.getSubject("01459101"));
-        term.add(tableSubjects.getSubject("01301201"));
+        term.add(tableSubjects.getSubject("01418399"));
+        term.add(new Subject("01418XXX","วิชาเฉพาะเลือก",3,"-"));
+        term.add(new Subject("01418XXX","วิชาเลือกเสรี",3,"-"));
         return term;
     }
     public ArrayList<Subject>getYear42(){
         TableSubject tableSubjects=new TableSubject();
         ArrayList<Subject>term=new ArrayList<>();
-        term.add(tableSubjects.getSubject("01417111"));
-        term.add(tableSubjects.getSubject("01418116"));
-        term.add(tableSubjects.getSubject("01403111"));
-        term.add(tableSubjects.getSubject("01175114"));
-        term.add(tableSubjects.getSubject("01459101"));
-        term.add(tableSubjects.getSubject("01301201"));
+        term.add(tableSubjects.getSubject("01418499"));
+        term.add(new Subject("01418XXX","วิชาเฉพาะเลือก",3,"-"));
         return term;
     }
 }
