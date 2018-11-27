@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class searchSubjectController {
     @FXML
-    protected Button searchID,searchName;
+    protected Button searchID,searchName,main;
     @FXML
     protected TextField textID,textName;
     private TableSubject ts =new TableSubject();
@@ -34,6 +34,15 @@ public class searchSubjectController {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+    @FXML
+    public void handlMainBtn(ActionEvent event) throws IOException {
+        main = (Button) event.getSource();
+        Stage stage = (Stage) main.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Main.fxml"));
+        stage.setScene(new Scene(loader.load()));
+        stage.show();
+
     }
     public String getID() {
         return ID;

@@ -22,7 +22,7 @@ public class LoginController {
     public void handleLoginBtn(ActionEvent event) throws IOException {
         String userID=ID.getText();
         String userPass=password.getText();
-        if(userID.equals("panut")&&userPass.equals("1234")){
+        if(userID.equals("p")&&userPass.equals("1")){
             login = (Button) event.getSource();
             Stage stage = (Stage) login.getScene().getWindow();
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Main.fxml"));

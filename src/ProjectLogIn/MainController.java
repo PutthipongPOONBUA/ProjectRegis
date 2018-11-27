@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class MainController {
     @FXML
-    protected Button curriculum,registrationReport,studentInfo,logout,search;
+    protected Button curriculum,registrationReport,studentInfo,logout,search,registration;
     @FXML
     public void handlCurriculumBtn(ActionEvent event) throws IOException {
             curriculum = (Button) event.getSource();
@@ -50,8 +50,8 @@ public class MainController {
     }
     @FXML
     public void handlRegistrationBtn(ActionEvent event) throws IOException {
-        search = (Button) event.getSource();
-        Stage stage = (Stage) search.getScene().getWindow();
+        registration = (Button) event.getSource();
+        Stage stage = (Stage) registration.getScene().getWindow();
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Registration.fxml"));
         stage.setScene(new Scene(loader.load()));
         stage.show();
@@ -59,8 +59,8 @@ public class MainController {
     }
     @FXML
     public void handlRegistrationReportBtn(ActionEvent event) throws IOException {
-        studentInfo = (Button) event.getSource();
-        Stage stage = (Stage) studentInfo.getScene().getWindow();
+        registrationReport = (Button) event.getSource();
+        Stage stage = (Stage) registrationReport.getScene().getWindow();
         FXMLLoader loader = new FXMLLoader(getClass().getResource("RegistrationReport.fxml"));
         stage.setScene(new Scene(loader.load()));
         stage.show();

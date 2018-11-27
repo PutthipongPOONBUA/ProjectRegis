@@ -17,6 +17,7 @@
             <Image url="@../photos/KU_SubLogo.png" />
          </image>
       </ImageView>
+      <Button fx:id="mainBtn" layoutX="29.0" layoutY="15.0" mnemonicParsing="false" onAction="#handlMainBtn" opacity="1.0E-11" prefHeight="116.0" prefWidth="84.0" />
       <Label layoutX="138.0" layoutY="207.0" prefHeight="74.0" prefWidth="277.0" text="Course Name">
          <font>
             <Font size="35.0" />

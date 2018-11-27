@@ -33,6 +33,6 @@
             <TableColumn fx:id="prerequisiteID" maxWidth="450.0" minWidth="0.0" prefWidth="295.0" text="Prerequisite ID" />
         </columns>
       </TableView>
-      <Button fx:id="back" layoutX="1095.0" layoutY="634.0" mnemonicParsing="false" onAction="#handlBackBtn" prefHeight="40.0" prefWidth="98.0" text="Back" />
+      <Button fx:id="back" layoutX="29.0" layoutY="22.0" mnemonicParsing="false" onAction="#handlBackBtn" opacity="1.0E-11" prefHeight="104.0" prefWidth="81.0" text="Back" />
    </children>
 </AnchorPane>
