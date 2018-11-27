@@ -48,5 +48,22 @@ public class MainController {
         stage.show();
 
     }
+    @FXML
+    public void handlRegistrationBtn(ActionEvent event) throws IOException {
+        search = (Button) event.getSource();
+        Stage stage = (Stage) search.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Registration.fxml"));
+        stage.setScene(new Scene(loader.load()));
+        stage.show();
+
+    }
+    @FXML
+    public void handlRegistrationReportBtn(ActionEvent event) throws IOException {
+        studentInfo = (Button) event.getSource();
+        Stage stage = (Stage) studentInfo.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("RegistrationReport.fxml"));
+        stage.setScene(new Scene(loader.load()));
+        stage.show();
+    }
 }
 
