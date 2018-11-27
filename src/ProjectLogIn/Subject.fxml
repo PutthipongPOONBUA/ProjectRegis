@@ -26,14 +26,9 @@
             <Font size="30.0" />
          </font>
       </Label>
-      <Label fx:id="preName" layoutX="153.0" layoutY="461.0" prefHeight="71.0" prefWidth="640.0" text="Prerequisite Course : ">
+      <Label fx:id="preID" layoutX="450.0" layoutY="461.0" prefHeight="69.0" prefWidth="459.0" text="*Prerequisite ID*">
          <font>
             <Font size="25.0" />
-         </font>
-      </Label>
-      <Label fx:id="preID" layoutX="319.0" layoutY="518.0" prefHeight="69.0" prefWidth="459.0" text="*Prerequisite ID*">
-         <font>
-            <Font size="20.0" />
          </font>
       </Label>
       <Label alignment="TOP_LEFT" layoutX="519.0" layoutY="40.0" prefHeight="74.0" prefWidth="367.0" text="Course Info" textFill="WHITE">
@@ -46,9 +41,9 @@
             <Font size="27.0" />
          </font>
       </Button>
-      <Label fx:id="preID1" layoutX="153.0" layoutY="518.0" prefHeight="69.0" prefWidth="459.0" text="Prerequisite ID : ">
+      <Label fx:id="preID1" layoutX="153.0" layoutY="461.0" prefHeight="69.0" prefWidth="459.0" text="Prerequisite Course ID : ">
          <font>
-            <Font size="20.0" />
+            <Font size="25.0" />
          </font>
       </Label>
    </children>

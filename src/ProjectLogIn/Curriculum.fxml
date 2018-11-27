@@ -25,7 +25,7 @@
          </font>
       </Label>
       <ChoiceBox fx:id="box" accessibleRole="BUTTON" layoutX="1079.0" layoutY="162.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="177.0" />
-      <TableView fx:id="table" layoutX="64.0" layoutY="212.0" prefHeight="466.0" prefWidth="988.0">
+      <TableView fx:id="table" layoutX="64.0" layoutY="212.0" prefHeight="466.0" prefWidth="974.0">
         <columns>
           <TableColumn fx:id="courseID" prefWidth="179.0" styleClass="" text="Course ID" />
           <TableColumn fx:id="courseName" prefWidth="432.0" text="Course Name" />
@@ -33,6 +33,6 @@
             <TableColumn fx:id="prerequisiteID" maxWidth="450.0" minWidth="0.0" prefWidth="295.0" text="Prerequisite ID" />
         </columns>
       </TableView>
-      <Button fx:id="back" layoutX="1095.0" layoutY="634.0" mnemonicParsing="false" onAction="#handlBackBtn" prefHeight="40.0" prefWidth="98.0" text="back" />
+      <Button fx:id="back" layoutX="1095.0" layoutY="634.0" mnemonicParsing="false" onAction="#handlBackBtn" prefHeight="40.0" prefWidth="98.0" text="Back" />
    </children>
 </AnchorPane>
