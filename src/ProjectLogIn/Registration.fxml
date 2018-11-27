@@ -33,5 +33,6 @@
             <Font size="30.0" />
          </font>
       </TextField>
+      <Button layoutX="864.0" layoutY="266.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="74.0" text="Add" />
    </children>
 </Pane>
