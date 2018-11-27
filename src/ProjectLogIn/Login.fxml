@@ -20,7 +20,7 @@
          </image>
       </ImageView>
       <Label layoutX="506.0" layoutY="591.0" prefHeight="27.0" prefWidth="204.0" text="user : p , pass : 1" />
-      <Label layoutX="402.0" layoutY="125.0" text="Registration System">
+      <Label layoutX="402.0" layoutY="125.0" text="Information System">
          <font>
             <Font size="80.0" />
          </font>

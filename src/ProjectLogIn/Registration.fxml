@@ -17,7 +17,7 @@
             <Image url="@../photos/KU_SubLogo.png" />
          </image>
       </ImageView>
-      <Button fx:id="back" layoutX="27.0" layoutY="13.0" mnemonicParsing="false" onAction="#handlBackBtn" prefHeight="118.0" prefWidth="85.0" text="Button" visible="false" />
+      <Button fx:id="back" layoutX="27.0" layoutY="13.0" mnemonicParsing="false" onAction="#handlBackBtn" opacity="1.0E-11" prefHeight="118.0" prefWidth="85.0" text="Button" />
       <Label layoutX="529.0" layoutY="28.0" prefHeight="95.0" prefWidth="378.0" text="Registration" textFill="WHITE">
          <font>
             <Font size="50.0" />

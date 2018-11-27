@@ -16,7 +16,7 @@
             <Image url="@../photos/KU_SubLogo.png" />
          </image>
       </ImageView>
-      <Button fx:id="studentInfo" layoutX="275.0" layoutY="245.0" mnemonicParsing="false" onAction="#handlStudentInfoBtn" prefHeight="138.0" prefWidth="138.0" text="Student Info" />
+      <Button fx:id="studentInfo" layoutX="275.0" layoutY="245.0" mnemonicParsing="false" onAction="#handlStudentInfoBtn" prefHeight="138.0" prefWidth="138.0" text="User Profile" />
       <Button fx:id="logout" layoutX="1080.0" layoutY="38.0" mnemonicParsing="false" onAction="#handlLogOutBtn" prefHeight="48.0" prefWidth="118.0" text="Log Out" />
       <Button fx:id="search" layoutX="275.0" layoutY="425.0" mnemonicParsing="false" onAction="#handlsearchBtn" prefHeight="138.0" prefWidth="138.0" text="Search" />
       <Button fx:id="registration" layoutX="552.0" layoutY="425.0" mnemonicParsing="false" onAction="#handlRegistrationBtn" prefHeight="138.0" prefWidth="138.0" text="Registration" />

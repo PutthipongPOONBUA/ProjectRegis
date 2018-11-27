@@ -25,7 +25,7 @@ public class MainController {
     public void handlStudentInfoBtn(ActionEvent event) throws IOException {
         studentInfo = (Button) event.getSource();
         Stage stage = (Stage) studentInfo.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("NisitInfo.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("UserProfile.fxml"));
         stage.setScene(new Scene(loader.load()));
         stage.show();
 
