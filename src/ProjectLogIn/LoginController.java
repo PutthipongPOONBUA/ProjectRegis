@@ -17,8 +17,10 @@ public class LoginController {
     @FXML
     protected Button login;
 
+    TableStudent ts = new TableStudent();
 
-    @FXML
+
+    /*@FXML
     public void handleLoginBtn(ActionEvent event) throws IOException {
         String userID=ID.getText();
         String userPass=password.getText();
@@ -30,6 +32,22 @@ public class LoginController {
             stage.show();
         }
 
+    }*/
+
+    @FXML
+    public void handleLoginBtn(ActionEvent event){
+        if (ts.checkLogin(ID.getText(),password.getText())){
+            System.out.println("LEGO");
+            login = (Button) event.getSource();
+            Stage stage = (Stage) login.getScene().getWindow();
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Main.fxml"));
+            try {
+                stage.setScene(new Scene(loader.load()));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            stage.show();
+        }
     }
 
 }

@@ -17,11 +17,11 @@
          </image>
       </ImageView>
       <Button fx:id="back" layoutX="29.0" layoutY="22.0" mnemonicParsing="false" onAction="#handlBackBtn" opacity="1.0E-11" prefHeight="104.0" prefWidth="81.0" />
-      <Label layoutX="245.0" layoutY="220.0" prefHeight="70.0" prefWidth="771.0" text="Panut Siamrat">
+      <Label fx:id="name" layoutX="245.0" layoutY="220.0" prefHeight="70.0" prefWidth="771.0" text="Panut Siamrat">
          <font>
             <Font size="40.0" />
          </font></Label>
-      <Label layoutX="245.0" layoutY="330.0" prefHeight="43.0" prefWidth="406.0" text="5910450514">
+      <Label fx:id="id" layoutX="245.0" layoutY="330.0" prefHeight="43.0" prefWidth="406.0" text="5910450514">
          <font>
             <Font size="35.0" />
          </font>

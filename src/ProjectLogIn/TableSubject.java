@@ -3,7 +3,7 @@ package ProjectLogIn;
 import java.util.ArrayList;
 
 public class TableSubject {
-    private ArrayList<Subject> ts=new ArrayList<Subject>();  ;
+    private  ArrayList<Subject> ts=new ArrayList<Subject>();  ;
 
     public TableSubject() {
         //bus
