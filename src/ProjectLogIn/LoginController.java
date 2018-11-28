@@ -37,7 +37,6 @@ public class LoginController {
     @FXML
     public void handleLoginBtn(ActionEvent event){
         if (ts.checkLogin(ID.getText(),password.getText())){
-            System.out.println("LEGO");
             login = (Button) event.getSource();
             Stage stage = (Stage) login.getScene().getWindow();
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Main.fxml"));
